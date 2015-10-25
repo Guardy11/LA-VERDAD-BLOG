@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	<title>LA VERDAD BLOG</title>
+</head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+<center>
+<div class="division" id="info">
+	<div>
+		<h1>LA VERDAD CHRISTIAN COLLEGE BLOG</h1>
+	</div>
+	<div>
+		<strong>TITLE</strong> <br> <input type = "text" name = "title"id = 'input_title'>
+	</div>
+	<div>
+
+		<div>
+		<br><strong>AUTHOR</strong>
+		<br><input type = "text" name = "fname" placeholder="firstname" id = 'input_first'></div>
+		<br><div><input type = "text" name = "mname"placeholder="middlename" id = 'input_middle'></div>
+		<br><div><input type = "text" name = "lname" placeholder="lastname" id = 'input_last'></div>
+	</div>
+	<div>
+		<br><br><br><strong>CONTENT</strong><br> <Textarea name ='content' id ='input_content' rows= "10"cols="30"></Textarea>
+	</div>
+	<div>
+		<button onClick = "postBlog()">SUBMIT</button>
+	</div>
+</div>
+
+	<div id="output">
+		<p>
+			<h4><span id="fname"></span>
+			<span id="mname"></span>
+			<span id="lname"></span><br><h4>
+			<h1><span id="title"></span></h1>
+			<h5><span id="content"></span><h5>
+		</p>
+	</div>
+
+	<div id = "footer">
+		<br><footer><strong>Thank You for Writing a Blog</strong></footer>
+		<br><footer><strong>All Rights Reserved &copy; 2015</strong></footer>
+	</div>
+	<script type="text/javascript" src="post.js"></script>	
+</center>
+</body>

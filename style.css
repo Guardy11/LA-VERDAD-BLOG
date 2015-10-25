@@ -1,0 +1,32 @@
+body {
+	background: url(LVCC.jpg);
+	margin: 0;
+	font-family: Georgia;
+}
+
+.division {
+	width: 900px;
+	display: block;
+}
+
+div#info {
+	margin-top: 40px;
+	background-color: lightblue;
+	display: table;
+	box-shadow: 3px 3px 10px #000;
+	border: solid 5px #fff;
+}
+
+h1, h2, h3 { color: #4F1776;}
+
+div#output {
+	margin-top: 20px;
+	background-color: pink;
+	display: table;
+	box-shadow: 3px 3px 10px #000;
+	border: solid 5px #fff;
+	
+}
+div#footer{
+	font-family: Georgia;
+}
